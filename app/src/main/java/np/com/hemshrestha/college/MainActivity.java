@@ -1,5 +1,6 @@
 package np.com.hemshrestha.college;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 toast("Student Clicked");
+                startActivity(new Intent(getApplicationContext(), StudentListActivity.class));
             }
         });
         ll_teacher.setOnClickListener(new View.OnClickListener() {
