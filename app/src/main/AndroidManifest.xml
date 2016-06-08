@@ -20,6 +20,8 @@
         <!-- <activity android:name=".SecondActivty"/> -->
         <activity android:name=".StudentListActivity">
         </activity>
+        <activity android:name=".PreferenceActivity">
+        </activity>
     </application>
 
 </manifest>
