@@ -9,7 +9,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    LinearLayout ll_student, ll_teacher;
+    LinearLayout ll_student;
+    LinearLayout ll_add_student;
     LinearLayout ll_preference;
 
 
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ll_student = (LinearLayout) findViewById(R.id.students);
-        ll_teacher = (LinearLayout) findViewById(R.id.teachers);
+        ll_add_student = (LinearLayout) findViewById(R.id.add_student);
         ll_preference = (LinearLayout) findViewById(R.id.preference);
 
         ll_student.setOnClickListener(new View.OnClickListener() {
@@ -38,10 +39,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ll_teacher.setOnClickListener(new View.OnClickListener() {
+        ll_add_student.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                toast("Teacher Clicked");
+                toast("Add Student Clicked");
+                startActivity(new Intent(getApplicationContext(), AddStudentActivity.class));
             }
         });
 

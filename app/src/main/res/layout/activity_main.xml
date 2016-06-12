@@ -33,7 +33,7 @@
                 android:text="List Student"/>
         </LinearLayout>
         <LinearLayout
-            android:id="@+id/teachers"
+            android:id="@+id/add_student"
             android:layout_width="wrap_content"
             android:orientation="vertical"
             android:layout_weight="2"

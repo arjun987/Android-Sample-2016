@@ -22,6 +22,8 @@
         </activity>
         <activity android:name=".PreferenceActivity">
         </activity>
+        <activity android:name=".AddStudentActivity">
+        </activity>
     </application>
 
 </manifest>
