@@ -28,13 +28,16 @@ public class StudentListActivity extends AppCompatActivity {
 
         listView = (ListView) findViewById(R.id.listView);
 
-        studentList = new ArrayList<>();
-        studentList.add(new Students("Name1","Address","Phone 1","Email","Image"));
-        studentList.add(new Students("Name2","Address","Phone 2","Phone","Image"));
-        studentList.add(new Students("Name3","Address","Phone 3","Phone","Image"));
-        studentList.add(new Students("Name4","Address","Phone 4","Phone","Image"));
-        studentList.add(new Students("Name5","Address","Phone 5","Phone","Image"));
-        studentList.add(new Students("Name6","Address","Phone 6","Phone","Image"));
+        MyDbHandler db = new MyDbHandler(this);
+        studentList = db.getStudents();
+
+//        studentList = new ArrayList<>();
+//        studentList.add(new Students("Name1","Address","Phone 1","Email","Image"));
+//        studentList.add(new Students("Name2","Address","Phone 2","Phone","Image"));
+//        studentList.add(new Students("Name3","Address","Phone 3","Phone","Image"));
+//        studentList.add(new Students("Name4","Address","Phone 4","Phone","Image"));
+//        studentList.add(new Students("Name5","Address","Phone 5","Phone","Image"));
+//        studentList.add(new Students("Name6","Address","Phone 6","Phone","Image"));
 
 
         adapter = new ArrayAdapter(getApplicationContext(), R.layout.row_item, R.id.text, studentList){
