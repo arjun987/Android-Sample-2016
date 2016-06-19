@@ -17,11 +17,7 @@ import java.util.Map;
 
 public class ServerRequest {
 
-    Context context;
-    String action;
-    public ServerRequest(Context context){
-        this.context = context;
-    }
+    public ServerRequest(){}
 
 	public static boolean isNetworkConnected(Context ctx) {
 		ConnectivityManager cm = (ConnectivityManager) ctx.getSystemService(Context.CONNECTIVITY_SERVICE);
