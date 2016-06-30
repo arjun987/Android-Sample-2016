@@ -17,7 +17,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <!-- <activity android:name=".SecondActivty"/> -->
+        <activity android:name=".ContactListActivity"/>
         <activity android:name=".StudentListActivity">
         </activity>
         <activity android:name=".PreferenceActivity">

@@ -54,6 +54,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), AddContacts.class));
             }
         });
+        findViewById(R.id.view_contacts).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                toast("View Contact Clicked");
+                startActivity(new Intent(getApplicationContext(), ContactListActivity.class));
+            }
+        });
 
     }
 

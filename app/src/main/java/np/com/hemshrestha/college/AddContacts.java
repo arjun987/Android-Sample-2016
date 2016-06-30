@@ -3,6 +3,7 @@ package np.com.hemshrestha.college;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.format.DateUtils;
 
 import java.util.HashMap;
 
@@ -41,7 +42,7 @@ public class AddContacts extends AppCompatActivity {
 //                map.put("n_mobile", phone);
 
                 ServerRequest request = new ServerRequest();
-                String url = "http://pi.hemshrestha.com.np/test/contacto.php?action=add" +
+                String url = "http://api.hemshrestha.com.np?action=add" +
                         "&c_fname="+name +
                         "&n_home="+email +
                         "&n_mobile="+phone
