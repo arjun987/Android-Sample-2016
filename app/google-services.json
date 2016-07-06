@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "14656408698",
+    "firebase_url": "https://fir-contact.firebaseio.com",
+    "project_id": "fir-contact",
+    "storage_bucket": "fir-contact.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14656408698:android:9355aa8bc89ff1c2",
+        "android_client_info": {
+          "package_name": "com.hereshem.firebasecontact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14656408698-ut1upva5kaf9sr9fjtfvlng2uklggmh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOLWwug6QdIvoKN1BEWsyzgABmJYjQULk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14656408698:android:d6464c115eca2c75",
+        "android_client_info": {
+          "package_name": "np.com.hemshrestha.college"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14656408698-ut1upva5kaf9sr9fjtfvlng2uklggmh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOLWwug6QdIvoKN1BEWsyzgABmJYjQULk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
